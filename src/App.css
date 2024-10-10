@@ -1,0 +1,39 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* RouterApp */
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #b6d861;
+}
+
+.header-title {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Threads */
+
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.create-thread {
+  text-decoration: none;
+}
+
+.threads-container {
+  width: 250px;
+}
+
+.thread-list {
+  list-style: none;
+  cursor: pointer;
+}

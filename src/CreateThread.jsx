@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const CreateThread = () => {
   const [threadTitle, setThreadTitle] = useState({ title: "" });
@@ -28,6 +28,7 @@ const CreateThread = () => {
       .catch((error) => {
         console.log("Error:", error);
       });
+    setThreadTitle({ title: "" });
   };
 
   return (
